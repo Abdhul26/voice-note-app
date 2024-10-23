@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import './VoiceNote.css'
+import '../styles/VoiceNote.css' // Adjust the path based on your structure
 
 const VoiceNote = () => {
   const [transcript, setTranscript] = useState('')
